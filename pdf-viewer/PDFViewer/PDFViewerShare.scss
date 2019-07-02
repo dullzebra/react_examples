@@ -1,0 +1,79 @@
+@import '~_styles/variables.scss';
+@import '_styles/ionicons.scss';
+
+.PDFViewerShare{
+  position: relative;
+}
+
+.PDFViewerShare__DropDown{
+  position: absolute;
+  right: 0;
+  top: 35px;
+  width: 400px;  
+  background: $colorWhite;
+  color: $colorBlack;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px 1px #333;
+  font-size: 0.9em;
+}
+
+.PDFViewerShare__Title{
+  display: flex;
+  justify-content: space-between;
+  font-size: $fontSizeDefault;
+  font-weight: bold;
+  padding: $stepSmall $step;
+  border-bottom: 1px solid $colorGray;
+
+  i:before{
+    @extend %ion; 
+    content: "\f129";
+    cursor: pointer;
+  }
+}
+
+.PDFViewerShare__Form{ 
+  margin-top: $stepSmall;
+  margin-bottom: $stepSmall;
+  display: flex;
+  align-items: center;  
+
+  label, input {
+    padding: $stepSmall; 
+  }
+  input {    
+    width: 50px;   
+    
+    &:invalid{
+      outline: 2px solid rgba(255, 0, 0, 0.5);
+    }
+  }
+
+  button {
+    padding: $stepSmall;
+    margin-bottom: $step;
+    margin-left: $step;
+    color: $colorBlack;
+    background: $colorLighterGray;
+    font-size: $fontSizeDefault;
+    white-space: nowrap;
+
+    i{
+      margin-right: 5px;
+    }
+    i:before{
+      @extend %ion; 
+      content: "\f2f8";
+    }
+  }
+}
+
+input.PDFViewerShare_Link{
+  width: 100%; 
+  font-size: .9em;
+}
+
+.PDFViewerShare__CopySuccess{
+  height: 1em; 
+}
+

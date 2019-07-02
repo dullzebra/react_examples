@@ -1,0 +1,174 @@
+@import '~_styles/variables.scss';
+@import '_styles/ionicons.scss';
+
+.PDFViewer__Title {
+  padding-top: $step;
+  padding-left: $step;
+  width: 100%;
+  text-align: center;
+  font-size: $fontSizeDefault;
+}
+
+.PDFViewer__Popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  border-radius: 0;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+}
+
+.PDFViewer__Head {
+  display: flex;
+  align-items: center;  
+  width: 100%;
+  height: 70px;
+  background: $colorPurple;
+  color: $colorWhite;
+}
+
+.PDFView__Toggle{  
+  margin-right: $step;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+/* .PDFViewer__Close {
+  display: flex;
+  align-items: center;  
+  margin: 16px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+.PDFViewer__Close:before {
+  @extend %ion; 
+  content: "\f129";
+}
+ */
+.PDFViewer__Zoom {
+  display: flex;
+  align-items: center; 
+  margin-right: $step; 
+
+  button{
+    font-size: 1.7rem; 
+    background: transparent;
+    color: $colorWhite; 
+    cursor: pointer; 
+    min-width: 32px; //IE11 bug
+  }
+}
+
+.PDFViewer__ZoomIn:before {
+  @extend %ion; 
+  content: "\f359";
+}
+
+.PDFViewer__ZoomOut:before {
+  @extend %ion; 
+  content: "\f3a9";
+}
+
+.PDFViewer__Share:before {
+  @extend %ion; 
+  content: "\f3ac";
+}
+
+.PDFViewer__Form {
+  display: flex;
+  align-items: center;
+  margin: 0 $step;
+  width: 250px;
+
+  label {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  input {
+    width: 50px;
+    padding: 3px 5px;
+    margin: 0 5px;
+    line-height: $lineHeightDefault;
+    background: $colorLighterGray;
+  }
+
+  button[type=submit] {
+    font-size: 1.7rem; 
+    background: transparent;
+    color: $colorWhite; 
+    cursor: pointer; 
+  }
+  button[type=submit]:before {    
+    @extend %ion; 
+    content: "\f4a4";
+  }
+}
+
+.PDFViewer__SidebarTrigger{
+  position: absolute;  
+  left: 0;
+  transition: left 500ms;
+  background: $colorPurple;
+  cursor: pointer;
+}
+
+.PDFViewer__SidebarTrigger:before {
+  @extend %ion;  
+  content: "\f109";
+  padding: 0 5px;
+  color: $colorWhite;
+  font-size: 1.5rem; 
+}
+
+.PDFViewer__SidebarTrigger.open {
+  left: 250px; 
+}
+
+.PDFViewer__SidebarTrigger.open:before { 
+  content: "\f106";  
+}
+
+.PDFViewer__Frame {
+  width: 100%;
+  height: calc(100% - 70px);
+}
+
+.PDFViewer__DTrigger{
+  cursor: pointer;
+  position: relative;
+  font-size: 13px;
+  white-space: nowrap;
+
+  i:before { 
+    margin-left: $stepSmall; 
+    width: 1rem;
+    height: 1rem;  
+    @extend %ion; 
+    content: "\f104";
+  }
+
+  ul{
+    display: none;
+    position: absolute;
+    top:30px;   
+    right: $stepSmall;
+  }
+}
+
+.PDFViewer__DTrigger.open{
+  ul{
+    display:block;
+    border: 1px solid $colorWhite;
+    border-radius: 4px;
+    background-color: $colorPurple;
+  } 
+  li{
+    text-align: right;
+    padding: $stepSmall;
+  }
+}
