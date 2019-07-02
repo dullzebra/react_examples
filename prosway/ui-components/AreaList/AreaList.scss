@@ -1,0 +1,70 @@
+@import '~_styles/variables.scss';
+
+:local{
+    .AreaList{
+        &InputContainer{
+            display: flex;
+            height: $heightInput;            
+            padding: 0 8px 0 16px;            
+            border: solid 1px $colorLighterGray;
+            border-width: 1px 0;
+            cursor: default;           
+
+            .Icon {
+                width: 20px;
+                height: 20px;               
+                margin-top: 8px;
+                fill: $colorDarkGray;
+
+                &Button {
+                    cursor: pointer;
+                }
+              }
+        }
+
+        & .focus {
+            outline: none;
+            box-shadow: 0 0 4px 0 rgba(74, 20, 140, 0.24);
+            border-color: $colorPurpleLight;
+
+            .Icon {
+                fill: $colorLinks;
+            }
+        } 
+
+        &ScrollBox {
+            max-height: calc(400px - 47px - 38px);
+            overflow-y: auto;
+            padding-top: 6px;
+        }
+
+        &Input {
+            width: 100%;
+            margin-top: 1px;
+            margin-left: 8px;            
+            border: none;
+            outline: none; 
+            font-family: $fontDefault;      
+            background-color: $colorWhite;            
+            font-weight: 400;   
+            &::-ms-clear {
+                display: none;
+            }               
+        }
+
+        &Option {
+            padding: 10px 4px 10px 40px;
+
+            &:hover{
+                background-color: $colorOptionHiLi;
+            }
+
+            i {
+                background-color: $colorOptionHiLi;  
+            }
+           
+        }
+    }
+}
+
+@import './AreaList.Mobile.scss';

@@ -1,0 +1,37 @@
+
+@import '~_styles/variables.scss';
+
+:local{
+    .Snackbar{
+        display: none;
+        position: fixed;
+        z-index: $zIndexError;
+        left: 50%;
+        top: 100px;
+        transform: translateX(-50%);
+        padding: 12px $step 7px;
+        color: $colorWhite;      
+        border-radius: 2px;
+        box-shadow: 0 24px 36px 0 rgba(0, 0, 0, 0.12), 0 12px 24px 0 rgba(0, 0, 0, 0.06);        
+        background-image: linear-gradient($colorError, $colorError), linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4) 5%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0));
+        
+        .Icon {
+            position: relative;
+            right: 0;
+            top:-2px;
+            margin-left: $step;
+            width: 24px;
+            height: 24px;
+            fill: #fff;
+            cursor:pointer;
+        }  
+    }  
+    
+    .Info{
+        background-image: linear-gradient($colorGray, $colorGray), linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.4) 5%, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0));
+    }  
+
+    .isOpen{
+        display:flex;
+    }
+}

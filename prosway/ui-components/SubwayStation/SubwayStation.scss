@@ -1,0 +1,53 @@
+@import '../../assets/styles/variables';
+
+:local {
+  .SubwayStation {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 1.6;
+    width: 100%;
+  }
+  .SubwayStationLine {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-top: -2px;
+    border: 3px solid black;
+    flex-shrink: 0;
+  } 
+  .SubwayDistance {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70px;
+    margin-left: 5px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.54);
+    white-space: nowrap;
+  }
+  .SubwayDistanceText {
+    margin-left: 5px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.54);
+    white-space: nowrap;
+  }
+  .SubwayStationNameWrap {
+    max-width: calc(100% - 20px);
+    flex-shrink: 0;
+    position: relative;
+  }
+  .SubwayStationName {
+    width: 100%;
+    padding-right: 80px;
+    flex-shrink: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    position: relative;
+  }
+
+}

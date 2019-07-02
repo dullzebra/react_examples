@@ -1,0 +1,28 @@
+@import '~_styles/variables.scss';
+
+:local {
+  .BusinessOrder {
+    position: relative;
+    width: $widthLayoutBig;
+    margin: 0 auto ($step * 3);
+    padding: $step $stepBig;
+    background-color: $colorWhite;
+    box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.06);
+  }
+
+  .BusinessOrderTitle {
+    margin-bottom: $step;
+    font-size: 24px;
+  }
+
+  .BusinessOrderMenu {
+    margin-bottom: $step;
+  }
+
+  .BusinessOrderButtons {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@import './BusinessOrder.Mobile.scss';

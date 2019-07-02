@@ -1,0 +1,28 @@
+@import '../Form.scss';
+
+:local{
+  .FieldPrices{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: $step / 2;
+
+    &.deleted{
+      display: none;
+    }
+
+    button {
+      padding-bottom: 0;
+    }
+  }
+  
+
+  .FieldPricesNumber{
+    width: 24px;
+    padding-top: 10px;
+  }
+
+  .FieldPricesName{ 
+    margin-right: $step / 2;
+  }
+
+}

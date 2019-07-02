@@ -1,0 +1,1307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderItem /> should render w/o crashing 1`] = `
+<div
+  className="OrdersListItemContent"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <h3
+      className="OrdersListItemUser"
+    >
+      Почтальон Печкин
+    </h3>
+    <div
+      className="OrdersListItemInfo"
+    >
+      Дворец пионеров
+        ·  
+      Курс вышивания крестиком
+        ·  
+      Желаемое время 
+      19:00—20:00
+        ·  
+      Пятница
+    </div>
+    <div
+      className="OrdersListItemForm"
+    >
+      <div
+        className="OrdersListItemField"
+      >
+        <label>
+          Выбрать время
+        </label>
+        <FieldSimpleSelect
+          name="time"
+          optionsArray={
+            Array [
+              Object {
+                "id": "9:00",
+                "name": "9:00 - 10:00",
+              },
+              Object {
+                "id": "10:00",
+                "name": "10:00 - 11:00",
+              },
+              Object {
+                "id": "11:00",
+                "name": "11:00 - 12:00",
+              },
+              Object {
+                "id": "12:00",
+                "name": "12:00 - 13:00",
+              },
+              Object {
+                "id": "13:00",
+                "name": "13:00 - 14:00",
+              },
+              Object {
+                "id": "14:00",
+                "name": "14:00 - 15:00",
+              },
+              Object {
+                "id": "15:00",
+                "name": "15:00 - 16:00",
+              },
+              Object {
+                "id": "16:00",
+                "name": "16:00 - 17:00",
+              },
+              Object {
+                "id": "17:00",
+                "name": "17:00 - 18:00",
+              },
+              Object {
+                "id": "18:00",
+                "name": "18:00 - 19:00",
+              },
+              Object {
+                "id": "19:00",
+                "name": "19:00 - 20:00",
+              },
+              Object {
+                "id": "20:00",
+                "name": "20:00 - 21:00",
+              },
+            ]
+          }
+          placeholder="Время"
+          size="size2"
+        />
+      </div>
+      <div
+        className="OrdersListItemField"
+      >
+        <label>
+          Выбрать день
+        </label>
+        <div
+          className="FieldDate"
+        >
+          <div
+            className="DatePickerContainer"
+          >
+            <input
+              autoComplete="off"
+              className="Input"
+              id={undefined}
+              name="day"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onDragStart={[Function]}
+              onDrop={[Function]}
+              onFocus={[Function]}
+              placeholder="Выберите день"
+              type="text"
+              value=""
+            />
+            <div
+              className="DatePickerDrop"
+            >
+              <div
+                className="DayPickerYearMonth"
+              >
+                <div
+                  className="DayPickerSelectMonth"
+                >
+                  <div
+                    className="SimpleSelect _withPlaceholder"
+                  >
+                    <div
+                      className="hiddenInputContainer"
+                    >
+                      <select
+                        className="hiddenInput"
+                        id="month"
+                        name="month"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <option
+                          value={0}
+                        >
+                          январь
+                        </option>
+                        <option
+                          value={1}
+                        >
+                          февраль
+                        </option>
+                        <option
+                          value={2}
+                        >
+                          март
+                        </option>
+                        <option
+                          value={3}
+                        >
+                          апрель
+                        </option>
+                        <option
+                          value={4}
+                        >
+                          май
+                        </option>
+                        <option
+                          value={5}
+                        >
+                          июнь
+                        </option>
+                        <option
+                          value={6}
+                        >
+                          июль
+                        </option>
+                        <option
+                          value={7}
+                        >
+                          август
+                        </option>
+                        <option
+                          value={8}
+                        >
+                          сентябрь
+                        </option>
+                        <option
+                          value={9}
+                        >
+                          октябрь
+                        </option>
+                        <option
+                          value={10}
+                        >
+                          ноябрь
+                        </option>
+                        <option
+                          value={11}
+                        >
+                          декабрь
+                        </option>
+                      </select>
+                    </div>
+                    <div
+                      className="Field"
+                    >
+                      <div
+                        className="FieldInfo"
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="Value"
+                        >
+                          <div
+                            className="ValueText"
+                          >
+                            сентябрь
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="ButtonZone"
+                      >
+                        <div
+                          className="Arrow"
+                          onClick={[Function]}
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="Drop"
+                    >
+                      <div
+                        className="Option"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "январь",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="Option"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "февраль",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="Option"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "март",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="Option"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "апрель",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="Option"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "май",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="Option"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "июнь",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="Option"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "июль",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="Option"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "август",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="Option _checked"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "сентябрь",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="Option"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "октябрь",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="Option"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "ноябрь",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="Option"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": "декабрь",
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="DayPickerSelectYear"
+                >
+                  <div
+                    className="SimpleSelect _withPlaceholder"
+                  >
+                    <div
+                      className="hiddenInputContainer"
+                    >
+                      <select
+                        className="hiddenInput"
+                        id="year"
+                        name="year"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                      >
+                        <option
+                          value={0}
+                        >
+                          2018
+                        </option>
+                        <option
+                          value={1}
+                        >
+                          2019
+                        </option>
+                        <option
+                          value={2}
+                        >
+                          2020
+                        </option>
+                      </select>
+                    </div>
+                    <div
+                      className="Field"
+                    >
+                      <div
+                        className="FieldInfo"
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="Value"
+                        >
+                          <div
+                            className="ValueText"
+                          >
+                            2018
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="ButtonZone"
+                      >
+                        <div
+                          className="Arrow"
+                          onClick={[Function]}
+                        />
+                      </div>
+                    </div>
+                    <div
+                      className="Drop"
+                    >
+                      <div
+                        className="Option _checked"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": 2018,
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="Option"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": 2019,
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        className="Option"
+                        onClick={[Function]}
+                      >
+                        <div
+                          dangerouslySetInnerHTML={
+                            Object {
+                              "__html": 2020,
+                            }
+                          }
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="DayPicker"
+                lang="ru"
+              >
+                <div
+                  className="DayPicker-wrapper"
+                  onBlur={undefined}
+                  onFocus={undefined}
+                  onKeyDown={[Function]}
+                  tabIndex={0}
+                >
+                  <div
+                    className="DayPicker-NavBar"
+                  >
+                    <span
+                      aria-label="Previous Month"
+                      className="DayPicker-NavButton DayPicker-NavButton--prev DayPicker-NavButton--interactionDisabled"
+                      onClick={undefined}
+                      onKeyDown={undefined}
+                      role="button"
+                      tabIndex="0"
+                    />
+                    <span
+                      aria-label="Next Month"
+                      className="DayPicker-NavButton DayPicker-NavButton--next"
+                      onClick={[Function]}
+                      onKeyDown={[Function]}
+                      role="button"
+                      tabIndex="0"
+                    />
+                  </div>
+                  <div
+                    className="DayPicker-Months"
+                  >
+                    <div
+                      className="DayPicker-Month"
+                      role="grid"
+                    >
+                      <div
+                        className="DayPicker-Caption"
+                        role="heading"
+                      >
+                        <div
+                          onClick={undefined}
+                          onKeyUp={[Function]}
+                        >
+                          сентябрь 2018
+                        </div>
+                      </div>
+                      <div
+                        className="DayPicker-Weekdays"
+                        role="rowgroup"
+                      >
+                        <div
+                          className="DayPicker-WeekdaysRow"
+                          role="row"
+                        >
+                          <div
+                            className="DayPicker-Weekday"
+                            role="columnheader"
+                          >
+                            <abbr
+                              title="понедельник"
+                            >
+                              пн
+                            </abbr>
+                          </div>
+                          <div
+                            className="DayPicker-Weekday"
+                            role="columnheader"
+                          >
+                            <abbr
+                              title="вторник"
+                            >
+                              вт
+                            </abbr>
+                          </div>
+                          <div
+                            className="DayPicker-Weekday"
+                            role="columnheader"
+                          >
+                            <abbr
+                              title="среда"
+                            >
+                              ср
+                            </abbr>
+                          </div>
+                          <div
+                            className="DayPicker-Weekday"
+                            role="columnheader"
+                          >
+                            <abbr
+                              title="четверг"
+                            >
+                              чт
+                            </abbr>
+                          </div>
+                          <div
+                            className="DayPicker-Weekday"
+                            role="columnheader"
+                          >
+                            <abbr
+                              title="пятница"
+                            >
+                              пт
+                            </abbr>
+                          </div>
+                          <div
+                            className="DayPicker-Weekday"
+                            role="columnheader"
+                          >
+                            <abbr
+                              title="суббота"
+                            >
+                              сб
+                            </abbr>
+                          </div>
+                          <div
+                            className="DayPicker-Weekday"
+                            role="columnheader"
+                          >
+                            <abbr
+                              title="воскресенье"
+                            >
+                              вс
+                            </abbr>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className="DayPicker-Body"
+                        role="rowgroup"
+                      >
+                        <div
+                          className="DayPicker-Week"
+                          role="row"
+                        >
+                          <div
+                            aria-disabled={true}
+                            className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+                            style={undefined}
+                          />
+                          <div
+                            aria-disabled={true}
+                            className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+                            style={undefined}
+                          />
+                          <div
+                            aria-disabled={true}
+                            className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+                            style={undefined}
+                          />
+                          <div
+                            aria-disabled={true}
+                            className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+                            style={undefined}
+                          />
+                          <div
+                            aria-disabled={true}
+                            className="DayPicker-Day DayPicker-Day--disabled DayPicker-Day--outside"
+                            style={undefined}
+                          />
+                          <div
+                            aria-disabled={true}
+                            aria-label="сб 1 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={0}
+                          >
+                            1
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="вс 2 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            2
+                          </div>
+                        </div>
+                        <div
+                          className="DayPicker-Week"
+                          role="row"
+                        >
+                          <div
+                            aria-disabled={true}
+                            aria-label="пн 3 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            3
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="вт 4 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            4
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="ср 5 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            5
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="чт 6 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            6
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="пт 7 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            7
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="сб 8 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            8
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="вс 9 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            9
+                          </div>
+                        </div>
+                        <div
+                          className="DayPicker-Week"
+                          role="row"
+                        >
+                          <div
+                            aria-disabled={true}
+                            aria-label="пн 10 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            10
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="вт 11 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            11
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="ср 12 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            12
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="чт 13 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            13
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="пт 14 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            14
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="сб 15 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            15
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="вс 16 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            16
+                          </div>
+                        </div>
+                        <div
+                          className="DayPicker-Week"
+                          role="row"
+                        >
+                          <div
+                            aria-disabled={true}
+                            aria-label="пн 17 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            17
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="вт 18 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            18
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="ср 19 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            19
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="чт 20 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            20
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="пт 21 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            21
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="сб 22 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            22
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="вс 23 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            23
+                          </div>
+                        </div>
+                        <div
+                          className="DayPicker-Week"
+                          role="row"
+                        >
+                          <div
+                            aria-disabled={true}
+                            aria-label="пн 24 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            24
+                          </div>
+                          <div
+                            aria-disabled={true}
+                            aria-label="вт 25 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day DayPicker-Day--disabled"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            25
+                          </div>
+                          <div
+                            aria-disabled={false}
+                            aria-label="ср 26 сент. 2018 г."
+                            aria-selected={true}
+                            className="DayPicker-Day DayPicker-Day--selected DayPicker-Day--today"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            26
+                          </div>
+                          <div
+                            aria-disabled={false}
+                            aria-label="чт 27 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            27
+                          </div>
+                          <div
+                            aria-disabled={false}
+                            aria-label="пт 28 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            28
+                          </div>
+                          <div
+                            aria-disabled={false}
+                            aria-label="сб 29 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            29
+                          </div>
+                          <div
+                            aria-disabled={false}
+                            aria-label="вс 30 сент. 2018 г."
+                            aria-selected={false}
+                            className="DayPicker-Day"
+                            onClick={[Function]}
+                            onFocus={undefined}
+                            onKeyDown={[Function]}
+                            onMouseDown={undefined}
+                            onMouseEnter={undefined}
+                            onMouseLeave={undefined}
+                            onMouseUp={undefined}
+                            onTouchEnd={undefined}
+                            onTouchStart={undefined}
+                            role="gridcell"
+                            style={undefined}
+                            tabIndex={-1}
+                          >
+                            30
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="OrdersListItemButtons"
+    >
+      <button
+        className="Button"
+        disabled={false}
+        onClick={null}
+        type="submit"
+      >
+        Готово
+      </button>
+      <button
+        className="ButtonTransparent"
+        disabled={undefined}
+        onClick={[Function]}
+        type="button"
+      >
+        Связаться с клиентом
+      </button>
+      <button
+        className="ButtonTransparent ButtonRed"
+        disabled={undefined}
+        onClick={[Function]}
+        type="button"
+      >
+        Отказать
+      </button>
+    </div>
+  </form>
+</div>
+`;

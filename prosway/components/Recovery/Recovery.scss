@@ -1,0 +1,44 @@
+@import '~_styles/variables.scss';
+
+:local {
+  .Recovery {
+    width: 100%;
+    position: relative;
+    margin: 0 auto 24px;
+  }
+
+  .Top {
+    padding: 24px 38px ($step / 2);
+  }
+
+  .Content {
+    width: 50%;
+    padding-top: 30px;    
+
+    &Wrap {
+      background-color: $colorWhite;
+      box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.06);
+      min-height: 400px;
+      padding: 0 38px 40px;
+      display: flex;     
+      justify-content: center;
+    }
+  }
+
+  .Description {
+    padding: $step * 2 0;
+  }
+
+  .Field {   
+    margin-bottom: $step;
+    width: 70%;
+    min-width: 200px;
+  }
+
+  .Error {
+    font-size: 12px;
+    font-weight: 500;
+    color: $colorError;
+    margin-bottom: $step;        
+  }
+}

@@ -1,0 +1,9 @@
+:local {
+  @media(max-width: $widthMobileScreenPortrait) and (orientation: portrait),
+  (max-width: $widthMobileScreenLandscape) and (orientation: landscape) {
+
+     .BrowserLocationPopup {
+       margin:  -76px 0 0 -150px;
+     }
+  }
+}

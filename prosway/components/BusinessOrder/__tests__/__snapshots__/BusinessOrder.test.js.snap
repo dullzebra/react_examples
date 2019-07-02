@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BusinessOrder /> should render <Показать ещё> button after fetchUserOrders call 1`] = `
+<div
+  className="BusinessOrder"
+>
+  <h1
+    className="BusinessOrderTitle"
+  >
+    Мои заказы
+  </h1>
+  <div
+    className="BusinessOrderMenu"
+  >
+    <div
+      className="Tabs Tabs_themeTall"
+    >
+      <div
+        className="Bar"
+      >
+        <div
+          className="Tab active"
+          onClick={[Function]}
+        >
+          Заявки
+        </div>
+        <div
+          className="Tab"
+          onClick={[Function]}
+        >
+          Календарь
+        </div>
+        <div
+          className="Indicator"
+          style={
+            Object {
+              "transform": "translateX(0px)",
+              "width": 0,
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  OrdersList
+  <div
+    className="BusinessOrderButtons"
+  >
+    <button
+      className="ButtonTransparent"
+      disabled={undefined}
+      onClick={[Function]}
+      type="button"
+    >
+      Показать ещё
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<BusinessOrder /> should render w/o crashing 1`] = `
+<div
+  className="BusinessOrder"
+>
+  <h1
+    className="BusinessOrderTitle"
+  >
+    Мои заказы
+  </h1>
+  <div
+    className="BusinessOrderMenu"
+  >
+    <div
+      className="Tabs Tabs_themeTall"
+    >
+      <div
+        className="Bar"
+      >
+        <div
+          className="Tab active"
+          onClick={[Function]}
+        >
+          Заявки
+        </div>
+        <div
+          className="Tab"
+          onClick={[Function]}
+        >
+          Календарь
+        </div>
+        <div
+          className="Indicator"
+          style={
+            Object {
+              "transform": "translateX(0px)",
+              "width": 0,
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  OrdersList
+</div>
+`;

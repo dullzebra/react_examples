@@ -1,0 +1,46 @@
+@import '../../assets/styles/variables.scss';
+
+:local { 
+  .Row {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .First {
+    flex-grow: 1;
+    align-items: flex-start;
+    padding-right: 9px;
+  }
+
+  .Link {
+    color: $colorLinks;
+    font-weight: 400;
+    font-size: 15px;    
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .Icon {
+    margin-left: 9px;
+    width: 10px;
+    height: 5px;
+    .isOpen & {
+      transform: rotate(180deg);
+    }
+    svg {
+      width: 10px;
+      height: 5px;
+    }
+  }
+  .Panel {
+    height: auto;
+    max-height: 0;
+    overflow: hidden;
+    transition: 300ms max-height;
+
+    .isOpen & {
+      transition: 400ms max-height;
+    }
+  } 
+}

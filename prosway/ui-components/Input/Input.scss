@@ -1,0 +1,122 @@
+@import '~_styles/variables.scss';
+
+:local {
+  /* карточка общий класс */
+  .Input {
+    font-family: $fontDefault;
+    box-sizing: border-box;
+    padding: 0 16px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    font-weight: 400;
+    width: 100%;
+    height: $heightInput;
+    border: solid 1px $colorLighterGray;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 4px 0 rgba(74, 20, 140, 0.24);
+      border: solid 1px $colorPurpleLight;
+    }
+
+    &._error {
+      border: solid 1px $colorRed;
+    }
+
+    .InputWrap_withCounter & {
+      padding-right: 45px;
+    }
+
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus {
+      background-color: $colorWhite !important;
+    }
+  }
+  .InputWrap {
+    position: relative;
+    width: 100%;
+/*TODO проверить это с автокоплитом хрома и при показе error
+    &:after {
+      pointer-events: none;
+      content: '';
+      position: absolute;
+      right: $step;
+      width: 20px;
+      height: 100%;
+      border: transparent 1px solid;
+      border-radius: 4px;
+      background: linear-gradient(
+          to right,
+          rgba(255,255,255,0) 0%,
+          rgba(255,255,255,0.5) 30%,
+          rgba(255,255,255,1) 100%);
+      background-clip: padding-box;
+    }
+
+    &_withCounter:after {
+      right: 45px;
+    }*/
+  }
+  .Error {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 500;
+    color: $colorError;
+    margin-left: 16px;
+    padding-top: 4px;
+  }
+
+  .InputInsideButtonWrap {
+    display: block;
+    width: 57px;
+    height: 34px;
+    border-radius: 3px;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
+  }
+
+  .InputInsideButton {
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .InputCounter {
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: $heightInput;
+    padding: 0 $step 0 6px;
+    font-size: 15px;
+    color: $colorGray;
+    border: transparent 1px solid;
+    border-radius: 4px;
+    background-color: $colorWhite;
+    background-clip: padding-box;
+  }
+
+  .InputGroup {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .InputGroupItem {
+    width: calc(50% - 4px);
+  }
+}
+
+@import './Input.Mobile.scss';

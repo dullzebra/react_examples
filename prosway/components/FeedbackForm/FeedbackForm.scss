@@ -1,0 +1,62 @@
+@import '~_styles/variables.scss';
+:local {
+    .FeedbackForm{
+        &Title{            
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        &Inner{
+            width: 340px;            
+            display: flex;
+            flex-direction: column;
+            padding: $step 0;
+        }
+
+        &Field {
+            margin-bottom: 0.5 * $step;
+
+            textarea {
+                width: 100%;
+                min-width: auto;
+                height: 108px;
+                border: solid 1px $colorLighterGray;
+            }
+
+            input[type='file'] {
+                border: none;
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .Subject{
+                height: auto;
+
+                div[class^=Option] {
+                    white-space: normal;
+                }
+            }
+        }
+
+        &Buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: $step;    
+
+            &Success {
+                justify-content: flex-end;
+            }
+        }
+    }
+    
+    .Error {
+        font-size: 12px;
+        font-weight: 500;
+        color: $colorError;
+        margin-left: 16px;        
+      }
+
+    .Hide{
+        display:none
+    }
+}

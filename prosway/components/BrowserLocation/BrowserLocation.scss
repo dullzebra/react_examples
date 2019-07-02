@@ -1,0 +1,39 @@
+@import '~_styles/variables.scss';
+
+:local {
+  .BrowserLocation {
+    padding: $step;
+    width: 300px;
+  }
+
+  .BrowserLocationText {
+    margin-bottom: $step;
+  }
+
+  .BrowserLocationButtons {
+    display: flex;
+    justify-content: center;
+  }
+  .BrowserLocationPopup {
+    z-index: $zIndexModal;
+    position: absolute;
+    top: 68px;
+    left: 38px;
+    border-radius: 4px;
+    margin-top: $step;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 24px 36px 0 rgba(0, 0, 0, 0.12), 0 12px 24px 0 rgba(0, 0, 0, 0.06);
+    outline: none;
+
+  }
+  .BrowserLocationOverlay {
+    z-index: $zIndexOverlay;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@import './BrowserLocation.Mobile.scss';

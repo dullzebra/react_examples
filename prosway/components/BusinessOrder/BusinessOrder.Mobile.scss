@@ -1,0 +1,15 @@
+:local {
+  @media
+  (max-width: $widthMobileScreenPortrait) and (orientation: portrait),
+  (max-width: $widthMobileScreenLandscape) and (orientation: landscape) {
+
+    .BusinessOrder {
+      width: auto;
+      padding: $step;
+    }
+
+    .BusinessOrderMenu {
+      margin-left: -$step;
+    }
+  }
+}
